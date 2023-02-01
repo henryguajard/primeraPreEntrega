@@ -51,9 +51,9 @@ function categorias (){
     let introduccion =prompt(`En este sitio web podras encontrar
     los muebles que tu casa necesita  elije la "Letra" de la 
     Categoria que andas buscando:
-    1. ${juegosDeTerrasa}. Juegos de terraza
-    2. ${mesas}. Mesas
-    3. ${sofas}. Sofas`).toUpperCase();
+     ${juegosDeTerrasa}. Juegos de terraza
+     ${mesas}. Mesas
+     ${sofas}. Sofas`).toUpperCase();
 
     let contador =0
     while((introduccion!=`${juegosDeTerrasa}`)&&(introduccion!=`${mesas}`)&&(introduccion!=`${sofas}`)){
